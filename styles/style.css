@@ -255,3 +255,14 @@ h1 {
 .info-banner {
 	padding: 1.5em 0em;
 }
+
+footer {
+	background-color: #111111;
+	color: #757575;
+	padding: 15px 0px;
+	text-align: center;
+}
+
+footer>span {
+	font-size: smaller;
+}
