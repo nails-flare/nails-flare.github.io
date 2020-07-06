@@ -48,7 +48,7 @@ h1 {
     border-bottom: none;
   }
 }
-/* X35-G43-U34-HUI */
+
 .main-screen {
   min-height: 100vh;
 
@@ -163,4 +163,42 @@ h1 {
 	text-decoration: none;
 	background-color: #fdeff9;
 	transition: 0.3s;
+}
+
+.contacts-block {
+	background-color: #111111;
+	color: #ffffff;
+}
+
+.mapouter {
+	position: relative;
+	text-align: right;
+	height: 100%;
+	width: 100%;
+}
+
+.gmap_canvas {
+	overflow: hidden;
+	background: none !important;
+	height: 100%;
+	width: 100%;
+}
+
+.contact {
+	display: flex;
+	align-items: center;
+	margin-bottom: 1.2em;
+}
+
+.contact>img {
+	margin-right: 10px;
+}
+
+.contact>address {
+	margin: 0;
+}
+
+.contact>a {
+	color: white;
+	text-decoration: none;
 }
