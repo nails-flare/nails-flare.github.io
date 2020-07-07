@@ -6,6 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="google-site-verification" content="B1FZIgzf_Jrgp1-eiRaWV7PtXWSZic20Y9XTgPlXj0c" />
 
+	<meta name="description" content="Ищете доступный и качественный маникюр в Санкт-Петербурге? Запишитесь к нам!" />
+	<meta name="keywords" content="маникюр спб, маникюр, педикюр, маникюр санкт-петербург" />
+	<meta name="robots" content="index,follow" />
+
 	<link rel="apple-touch-icon" sizes="180x180" href="resources/icons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="resources/icons/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="resources/icons/favicon-16x16.png">
@@ -72,13 +76,16 @@
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbarText">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item mr-5">
-						<a class="nav-link text-white" href="#services-table">Услуги</a>
+				<ul class="navbar-nav ml-auto" itemscope itemtype="https://schema.org/BreadcrumbList">
+					<li class="nav-item mr-5" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+						<a itemprop="item" class="nav-link text-white" href="#services-table"><span
+								itemprop="name">Услуги</span></a>
+						<meta itemprop="position" content="1" />
 					</li>
 
-					<li class="nav-item mr-5">
-						<a class="nav-link text-white" href="gallery.html">Галерея</a>
+					<li class="nav-item mr-5" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+						<a itemprop="item" class="nav-link text-white" href="gallery.html"><span itemprop="name">Галерея</span></a>
+						<meta itemprop="position" content="2" />
 					</li>
 
 					<li class="nav-item mr-lg-5">
@@ -145,111 +152,135 @@
 
 				<table id="services-table">
 					<tbody>
-						<tr>
-							<td>Маникюр</td>
+						<tr itemscope itemtype="http://schema.org/Offer">
+							<td itemprop="name">Маникюр</td>
 
 							<td>
-								<span class="price">400&nbsp;<span class="price-currency">₽</span></span>
-								<span class="deprecated-price">800&nbsp;<span class="price-currency">₽</span></span>
+								<span class="price" itemprop="price" content="400">400&nbsp;<span class="price-currency"
+										itemprop="priceCurrency" content="RUB">₽</span></span>
+								<span class="deprecated-price">800&nbsp;<span class="price-currency" itemprop="priceCurrency"
+										content="RUB">₽</span></span>
 							</td>
 						</tr>
 
-						<tr>
-							<td>Маникюр + гель-лак</td>
+						<tr itemscope itemtype="http://schema.org/Offer">
+							<td itemprop="name">Маникюр + гель-лак</td>
 
 							<td>
-								<span class="price">1000&nbsp;<span class="price-currency">₽</span></span>
-								<span class="deprecated-price">1400&nbsp;<span class="price-currency">₽</span></span>
+								<span class="price" itemprop="price" content="1000">1000&nbsp;<span class="price-currency"
+										itemprop="priceCurrency" content="RUB">₽</span></span>
+								<span class="deprecated-price">1400&nbsp;<span class="price-currency" itemprop="priceCurrency"
+										content="RUB">₽</span></span>
 							</td>
 						</tr>
 
-						<tr>
-							<td>Мужской маникюр</td>
+						<tr itemscope itemtype="http://schema.org/Offer">
+							<td itemprop="name">Мужской маникюр</td>
 
 							<td>
-								<span class="price">700&nbsp;<span class="price-currency">₽</span></span>
-								<span class="deprecated-price">1000&nbsp;<span class="price-currency">₽</span></span>
+								<span class="price" itemprop="price" content="700">700&nbsp;<span class="price-currency"
+										itemprop="priceCurrency" content="RUB">₽</span></span>
+								<span class="deprecated-price">1000&nbsp;<span class="price-currency" itemprop="priceCurrency"
+										content="RUB">₽</span></span>
 							</td>
 						</tr>
 
-						<tr>
-							<td>Покрытие гель-лаком</td>
+						<tr itemscope itemtype="http://schema.org/Offer">
+							<td itemprop="name">Покрытие гель-лаком</td>
 
 							<td>
-								<span class="price">600&nbsp;<span class="price-currency">₽</span></span>
-								<span class="deprecated-price">900&nbsp;<span class="price-currency">₽</span></span>
+								<span class="price" itemprop="price" content="600">600&nbsp;<span class="price-currency"
+										itemprop="priceCurrency" content="RUB">₽</span></span>
+								<span class="deprecated-price">900&nbsp;<span class="price-currency" itemprop="priceCurrency"
+										content="RUB">₽</span></span>
 							</td>
 						</tr>
 
-						<tr>
-							<td>Снятие + маникюр + гель-лак</td>
+						<tr itemscope itemtype="http://schema.org/Offer">
+							<td itemprop="name">Снятие + маникюр + гель-лак</td>
 
 							<td>
-								<span class="price">1100&nbsp;<span class="price-currency">₽</span></span>
-								<span class="deprecated-price">1600&nbsp;<span class="price-currency">₽</span></span>
+								<span class="price" itemprop="price" content="1100">1100&nbsp;<span class="price-currency"
+										itemprop="priceCurrency" content="RUB">₽</span></span>
+								<span class="deprecated-price">1600&nbsp;<span class="price-currency" itemprop="priceCurrency"
+										content="RUB">₽</span></span>
 							</td>
 						</tr>
 
-						<tr>
-							<td>Снятие гель-лака</td>
+						<tr itemscope itemtype="http://schema.org/Offer">
+							<td itemprop="name">Снятие гель-лака</td>
 
 							<td>
-								<span class="price">300&nbsp;<span class="price-currency">₽</span></span>
-								<span class="deprecated-price">400&nbsp;<span class="price-currency">₽</span></span>
+								<span class="price" itemprop="price" content="300">300&nbsp;<span class="price-currency"
+										itemprop="priceCurrency" content="RUB">₽</span></span>
+								<span class="deprecated-price">400&nbsp;<span class="price-currency" itemprop="priceCurrency"
+										content="RUB">₽</span></span>
 							</td>
 						</tr>
 
-						<tr>
-							<td>Снятие с последующим покрытием</td>
+						<tr itemscope itemtype="http://schema.org/Offer">
+							<td itemprop="name">Снятие с последующим покрытием</td>
 
 							<td>
-								<span class="price">100&nbsp;<span class="price-currency">₽</span></span>
-								<span class="deprecated-price">300&nbsp;<span class="price-currency">₽</span></span>
+								<span class="price" itemprop="price" content="100">100&nbsp;<span class="price-currency"
+										itemprop="priceCurrency" content="RUB">₽</span></span>
+								<span class="deprecated-price">300&nbsp;<span class="price-currency" itemprop="priceCurrency"
+										content="RUB">₽</span></span>
 							</td>
 						</tr>
 
-						<tr>
-							<td>Укрепление акриловой пудрой</td>
+						<tr itemscope itemtype="http://schema.org/Offer">
+							<td itemprop="name">Укрепление акриловой пудрой</td>
 
 							<td>
-								<span class="price">100&nbsp;<span class="price-currency">₽</span></span>
-								<span class="deprecated-price">300&nbsp;<span class="price-currency">₽</span></span>
+								<span class="price" itemprop="price" content="100">100&nbsp;<span class="price-currency"
+										itemprop="priceCurrency" content="RUB">₽</span></span>
+								<span class="deprecated-price">300&nbsp;<span class="price-currency" itemprop="priceCurrency"
+										content="RUB">₽</span></span>
 							</td>
 						</tr>
 
-						<tr>
-							<td>Педикюр</td>
+						<tr itemscope itemtype="http://schema.org/Offer">
+							<td itemprop="name">Педикюр</td>
 
 							<td>
-								<span class="price">1000&nbsp;<span class="price-currency">₽</span></span>
-								<span class="deprecated-price">1300&nbsp;<span class="price-currency">₽</span></span>
+								<span class="price" itemprop="price" content="1000">1000&nbsp;<span class="price-currency"
+										itemprop="priceCurrency" content="RUB">₽</span></span>
+								<span class="deprecated-price">1300&nbsp;<span class="price-currency" itemprop="priceCurrency"
+										content="RUB">₽</span></span>
 							</td>
 						</tr>
 
-						<tr>
-							<td>Мужской педикюр</td>
+						<tr itemscope itemtype="http://schema.org/Offer">
+							<td itemprop="name">Мужской педикюр</td>
 
 							<td>
-								<span class="price">1300&nbsp;<span class="price-currency">₽</span></span>
-								<span class="deprecated-price">1600&nbsp;<span class="price-currency">₽</span></span>
+								<span class="price" itemprop="price" content="1300">1300&nbsp;<span class="price-currency"
+										itemprop="priceCurrency" content="RUB">₽</span></span>
+								<span class="deprecated-price">1600&nbsp;<span class="price-currency" itemprop="priceCurrency"
+										content="RUB">₽</span></span>
 							</td>
 						</tr>
 
-						<tr>
-							<td>Педикюр + гель-лак</td>
+						<tr itemscope itemtype="http://schema.org/Offer">
+							<td itemprop="name">Педикюр + гель-лак</td>
 
 							<td>
-								<span class="price">1500&nbsp;<span class="price-currency">₽</span></span>
-								<span class="deprecated-price">1800&nbsp;<span class="price-currency">₽</span></span>
+								<span class="price" itemprop="price" content="1500">1500&nbsp;<span class="price-currency"
+										itemprop="priceCurrency" content="RUB">₽</span></span>
+								<span class="deprecated-price">1800&nbsp;<span class="price-currency" itemprop="priceCurrency"
+										content="RUB">₽</span></span>
 							</td>
 						</tr>
 
-						<tr>
-							<td>Снятие + педикюр + гель-лак</td>
+						<tr itemscope itemtype="http://schema.org/Offer">
+							<td itemprop="name">Снятие + педикюр + гель-лак</td>
 
 							<td>
-								<span class="price">1600&nbsp;<span class="price-currency">₽</span></span>
-								<span class="deprecated-price">1900&nbsp;<span class="price-currency">₽</span></span>
+								<span class="price" itemprop="price" content="1600">1600&nbsp;<span class="price-currency"
+										itemprop="priceCurrency" content="RUB">₽</span></span>
+								<span class="deprecated-price">1900&nbsp;<span class="price-currency" itemprop="priceCurrency"
+										content="RUB">₽</span></span>
 							</td>
 						</tr>
 					</tbody>
