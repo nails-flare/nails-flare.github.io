@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" prefix="og: http://ogp.me/ns#">
 
 <head>
 	<meta charset="utf-8">
@@ -17,8 +17,15 @@
 	<meta name="msapplication-TileColor" content="#9f00a7">
 	<meta name="msapplication-config" content="resources/icons/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
-	
-	<title>Маникюр и педикюр в Санкт-Петербурге</title>
+
+	<meta property="og:url" content="//nails-flare.github.io/" />
+	<meta property="og:title" content="Nails Flare" />
+	<meta property="og:description" content="Профессиональный маникюр и педикюр в Санкт-Петербурге" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="//nails-flare.github.io/resources/images/og-image.png" />
+	<meta property="og:image:type" content="image/png" />
+
+	<title>Nails Flare - маникюр и педикюр в Санкт-Петербурге</title>
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -44,7 +51,7 @@
 	!-- /Yandex.Metrika counter -->
 </head>
 
-<body>
+<body itemscope itemtype="http://schema.org/NailSalon">
 	<div class="main-screen">
 		<nav class="navbar navbar-expand-lg bg-transparent text-white pt-4">
 			<a class="navbar-brand ml-lg-5">NF</a>
@@ -97,8 +104,8 @@
 			</div>
 
 			<div class="main-screen-heading mt-5 mt-lg-0">
-				<h1>Nails Flare</h1>
-				<p>Профессиональный маникюр и педикюр в Санкт-Петербурге</p>
+				<h1 itemprop="name">Nails Flare</h1>
+				<p itemprop="description">Профессиональный маникюр и педикюр в Санкт-Петербурге</p>
 
 				<a class="button" href="https://beauty.dikidi.net/#widget=27061">Записаться</a>
 			</div>
@@ -332,16 +339,16 @@
 
 				<div class="contact">
 					<img src="resources/images/pin.svg" />
-					<address>Санкт-Петербург, Коломенская улица, 32 (ст. м. Лиговский проспект)</address>
+					<address itemprop="address">Санкт-Петербург, Коломенская улица, 32 (ст. м. Лиговский проспект)</address>
 				</div>
 
 				<div class="contact">
-					<img src="resources/images/phone.svg" />
+					<img src="resources/images/phone.svg" itemprop="telephone" />
 					<a href="tel:8 (922) 008-64-39">8 (922) 008-64-39</a>
 				</div>
 
 				<div class="contact">
-					<img src="resources/images/mail.svg" />
+					<img src="resources/images/mail.svg" itemprop="email" />
 					<a href="mailto:nails.flare@mail.ru">nails.flare@mail.ru</a>
 				</div>
 
