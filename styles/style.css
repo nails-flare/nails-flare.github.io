@@ -9,13 +9,13 @@ html {
 
 @keyframes show {
   from {
-		transform: translateY(55vh);
-		opacity: 0;
+    transform: translateY(55vh);
+    opacity: 0;
   }
 
   to {
-		margin-bottom: translateY(0vh);
-		opacity: 1;
+    margin-bottom: translateY(0vh);
+    opacity: 1;
   }
 }
 
@@ -58,9 +58,9 @@ h1 {
 
   background: #03001e;
   background: -webkit-linear-gradient(to left, #ec38bc, #7303c0);
-	background: linear-gradient(to left, #ec38bc, #7303c0);
-	
-	box-shadow: 0 0 20px black;
+  background: linear-gradient(to left, #ec38bc, #7303c0);
+
+  box-shadow: 0 0 20px black;
 }
 
 /* for > md */
@@ -106,7 +106,7 @@ h1 {
 }
 
 .main-screen-image-sm>img {
-	width: 100%;
+  width: 100%;
 }
 
 /* for >= md */
@@ -119,21 +119,20 @@ h1 {
 }
 
 .gallery-block {
-	min-height: 100vh;
-	padding: 0em 0em;
-	padding-right: 15px;
-	padding-left: 15px;
+	color: #58554B;
+  padding: 3em 15px;
+  background-color: rgb(245, 245, 245);
 }
 
 .work-example>img {
-	width: 90%;
-	text-align: center;
-	border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
 }
 
 .carousel-item>img {
-	width: 100%;
-	min-height: 60vh;
+  width: 100%;
+  min-height: 60vh;
 }
 
 .social-icon {
@@ -141,95 +140,94 @@ h1 {
 }
 
 .button {
-	color: #000000;
-	background-color: #fbff13;
-	padding: 10px 15px;
-	border-radius: 5px;
-	border: none;
-	display: inline-block;
-	width: fit-content;
+  color: #000000;
+  background-color: #FDE640;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  display: inline-block;
+  width: fit-content;
 }
 
 .button:hover {
-	color: #000000;
-	text-decoration: none;
-	background-color: #fdeff9;
-	transition: 0.3s;
+  color: #000000;
+  text-decoration: none;
+  background-color: #fdeff9;
+  transition: 0.3s;
 }
 
 .contacts-block {
-	background-color: #111111;
-	color: #ffffff;
+  background-color: #111111;
+  color: #ffffff;
 }
 
 .mapouter {
-	position: relative;
-	text-align: right;
-	height: 100%;
-	width: 100%;
+  position: relative;
+  text-align: right;
+  height: 100%;
+  width: 100%;
 }
 
 .gmap_canvas {
-	overflow: hidden;
-	background: none !important;
-	height: 100%;
-	width: 100%;
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%;
 }
 
 .contact {
-	display: flex;
-	align-items: center;
-	margin-bottom: 1.2em;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2em;
 }
 
 .contact>img {
-	margin-right: 10px;
+  margin-right: 10px;
 }
 
 .contact>address {
-	margin: 0;
+  margin: 0;
 }
 
 .contact>a {
-	color: white;
-	text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 #proposal-block {
-	padding-top: 4em;
-	padding-bottom: 4em;
+  padding-top: 4em;
 }
 
 .proposal-block-header {
-	background-color: yellow; 
-	width: fit-content; 
-	font-size: 2em;
-	text-align: center;
+  background-color: #FDE640;
+  width: fit-content;
+  font-size: 2em;
+  text-align: center;
 }
 
 /* for >= md */
 @media (min-width: 768px) {
   .proposal-block-header {
-		text-align: left;
-	}
+    text-align: left;
+  }
 }
 
 .proposal-list {
-	list-style: none;
-	padding-left: 0;
-	font-size: 1.2em;
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.2em;
 }
 
 .proposal-list>li {
-	margin-top: 1em;
+  margin-top: 1em;
 }
 
 #product-list {
-	width: 100%;
+  width: 100%;
 }
 
 #product-list>tbody>tr>td {
-	padding: 10px 0;
+  padding: 10px 0;
 }
 
 .product {
@@ -238,19 +236,19 @@ h1 {
 }
 
 .product-name {
-	font-size: larger;
+  font-size: larger;
 }
 
 .product-depricated-price {
-	text-decoration: line-through;
-	color: #585858;
-	font-weight: 400;
+  text-decoration: line-through;
+  color: #585858;
+  font-weight: 400;
   font-size: 13px;
 }
 
 .product-price {
-	color: #000000;
-	font-weight: 700;
+  color: #000000;
+  font-weight: 700;
   font-style: normal;
   font-stretch: normal;
   font-size: 18px;
@@ -258,7 +256,7 @@ h1 {
 }
 
 .product-price-currency {
-	font-weight: 700;
+  font-weight: 700;
   font-style: normal;
   font-stretch: normal;
   font-size: 13px;
@@ -266,18 +264,38 @@ h1 {
 }
 
 .info-banner {
-	padding: 1em 0;
-	opacity: 0.5;
-	font-size: 14px;
+  padding: 1em 0;
+  opacity: 0.5;
+  font-size: 14px;
 }
 
 footer {
-	background-color: #111111;
-	color: #757575;
-	padding: 15px 0px;
-	text-align: center;
+  background-color: #111111;
+  color: #757575;
+  padding: 15px 0px;
+  text-align: center;
 }
 
 footer>span {
-	font-size: smaller;
+  font-size: smaller;
+}
+
+blockquote {
+  margin: 0;
+  text-align: center;
+  color: #58554B;
+  padding: 30px 50px;
+  margin-bottom: 10px;
+}
+
+blockquote p {
+  margin-top: 0;
+  font-size: 20px;
+  line-height: 1.25;
+}
+
+blockquote cite {
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 14px;
 }
