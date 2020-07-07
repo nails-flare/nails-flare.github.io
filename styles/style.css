@@ -199,17 +199,8 @@ h1 {
 }
 
 .proposal-block-header {
-  background-color: #FDE640;
-  width: fit-content;
   font-size: 2em;
   text-align: center;
-}
-
-/* for >= md */
-@media (min-width: 768px) {
-  .proposal-block-header {
-    text-align: left;
-  }
 }
 
 .proposal-list {
@@ -298,4 +289,27 @@ blockquote cite {
   font-style: normal;
   text-transform: uppercase;
   font-size: 14px;
+}
+
+.social-icon-group {
+	margin-left: auto;
+}
+
+.social-icon-group>a:first-child {
+	margin-right: 8px;
+}
+
+.social-icon-group>a:hover {
+	text-decoration: none;
+}
+
+/* for > md */
+@media (min-width: 768px) {
+  .social-icon-group {
+		margin-left: 0;
+	}
+
+	.social-icon-group>a:first-child {
+		margin-right: 1.3em;
+	}
 }
