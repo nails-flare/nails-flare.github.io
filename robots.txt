@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://nails-flare.github.io/sitemap.xml
