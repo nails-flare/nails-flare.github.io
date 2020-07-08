@@ -43,6 +43,10 @@ header {
 }
 
 @media (min-width: 992px) {
+	.nav-link {
+		border-bottom: 3px transparent solid;
+	}
+	
   .nav-link:hover {
     border-bottom: 3px white solid;
     transition: 0.2s;
