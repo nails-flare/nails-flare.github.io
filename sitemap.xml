@@ -1,10 +1,25 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-	<loc>https://nails-flare.github.io/</loc>
-	<lastmod>2020-07-08T01:59:09+01:00</lastmod>
-	<changefreq>daily</changefreq>
-	<priority>1.0</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://nails-flare.github.io/index.html</loc>
+		<lastmod>2020-07-08T03:04:09+01:00</lastmod>
+		<changefreq>daily</changefreq>
+		<priority>1.0</priority>
+
+		<image:image>
+      <image:loc>https://nails-flare.github.io/resources/images/gallery/work1.jpg</image:loc>
+    </image:image>
+			<image:image>
+      <image:loc>https://nails-flare.github.io/resources/images/gallery/work2.jpg</image:loc>
+    </image:image>
+			<image:image>
+      <image:loc>https://nails-flare.github.io/resources/images/gallery/work3.jpg</image:loc>
+    </image:image>
+		<image:image>
+      <image:loc>https://nails-flare.github.io/resources/images/gallery/animated1.gif</image:loc>
+    </image:image>
+		<image:image>
+      <image:loc>https://nails-flare.github.io/resources/images/gallery/animated2.gif</image:loc>
+    </image:image>
+	</url>
 </urlset>
