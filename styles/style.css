@@ -336,3 +336,7 @@ footer>small>a {
 footer>small>a:hover {
   color: #FDE640;
 }
+
+.wcm_button_ic {
+	background-color: #000000;
+}
