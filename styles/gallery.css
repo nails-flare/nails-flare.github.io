@@ -1,59 +1,20 @@
-@font-face {
-  font-family: "Gotham-Bold";
-  src: url("../resources/Gotham Bold.otf") format("otf");
-}
-
-@keyframes show {
-  from {
-    transform: translateY(55vh);
-    opacity: 0;
-  }
-
-  to {
-    margin-bottom: translateY(0vh);
-    opacity: 1;
-  }
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Gotham-Bold", "Helvetica Neue", sans-serif;
-}
-
-header {
-	font-size: 1.75rem;
-	text-align: center;
-	padding-bottom: 1.5em;
-}
-
 /* navigation */
-.navbar {
-  font-weight: bold;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  font-size: 14px;
-  z-index: 1;
-}
 
 .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-link {
+	color: #000000;
+}
+
+.nav-link:hover {
+	color: #000000;
 }
 
 @media (min-width: 992px) {
-	.nav-link {
-		border-bottom: 3px transparent solid;
-	}
-
   .nav-link:hover {
-    border-bottom: 3px white solid;
-    transition: 0.2s;
-  }
-
-  .no-underscore:hover {
-    border-bottom: none;
+    border-bottom: 3px #000000 solid;
   }
 }
 
