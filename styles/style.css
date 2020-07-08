@@ -46,7 +46,7 @@ header {
 	.nav-link {
 		border-bottom: 3px transparent solid;
 	}
-	
+
   .nav-link:hover {
     border-bottom: 3px white solid;
     transition: 0.2s;
@@ -210,13 +210,23 @@ h1 {
 }
 
 #services-table>tbody>tr>td {
-  padding: 10px 0;
+	padding: 10px 0;
+	column-width: fit-content;
+}
+
+#services-table>tbody>tr>td:nth-child(1) {
+	width: 100%;
+}
+
+#services-table>tbody>tr>td:nth-child(2) {
+	display: flex;
 }
 
 .price {
   font-weight: 700;
   font-size: 18px;
-  line-height: 20px;
+	line-height: 20px;
+	padding-right: 4px;
 }
 
 .price-currency {
@@ -321,4 +331,12 @@ footer {
   color: #999999;
   padding: 15px 0px;
   text-align: center;
+}
+
+footer>small>a {
+  color: #FDE640;
+}
+
+footer>small>a:hover {
+  color: #FDE640;
 }
